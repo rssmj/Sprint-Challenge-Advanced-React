@@ -1,6 +1,6 @@
 import React from 'react';
+import App from './App.js';
 import ReactDOM from 'react-dom';
-import App from './App';
 import { render } from '@testing-library/react';
 
 it('renders without crashing', () => {
@@ -12,4 +12,3 @@ it('renders without crashing', () => {
 test('renders App without crashing', () => {
 	render(<App />);
 });
-

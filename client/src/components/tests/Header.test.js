@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Header } from './components/Header.js';
+import { Header } from '../Header.js';
 
-test('Header', () => {
+describe('Header', () => {
 	test('renders without crashing', () => {
 		render(<Header />);
 	});

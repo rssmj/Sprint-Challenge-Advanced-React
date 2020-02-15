@@ -1,14 +1,14 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { PlayerCard } from './components/PlayerCard.js';
+import { PlayerCard } from '../PlayerCard.js';
 
-test('PlayerCard', () => {
+describe('PlayerCard', () => {
 	test('renders without crashing', () => {
 		render(<PlayerCard />);
 	});
 
-	test('it renders Search', () => {
+	test('renders Name, Total, and Country', () => {
 		const display = render(<PlayerCard />);
-		display.getByText(/Search/);
+		display.getByText(/Name, Total, Country/);
 	});
 });
