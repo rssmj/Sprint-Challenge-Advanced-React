@@ -16,8 +16,8 @@ export const PlayerCard = ({ player }) => {
 						</h1>
 						<h1 className='playerName'>{player.name}</h1>
 					</div>
-					<h2>Trending Score: {player.searches}</h2>
-					<h3> {player.country}</h3>
+					<h2 className='playerScore'>Trending Score: {player.searches}</h2>
+					<h3 className='playerCountry'> {player.country}</h3>
 				</div>
 			</div>
 		</div>

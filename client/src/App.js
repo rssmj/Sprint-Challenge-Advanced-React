@@ -33,10 +33,10 @@ class App extends Component {
 				<Nav />
 				<Header />
 				<div className='playerContainer'>
-				{this.state.player.map(player => (
-					<PlayerCard key={player.id} player={player} />
-				))}
-					</div>
+					{this.state.player.map(player => (
+						<PlayerCard key={player.id} player={player} />
+					))}
+				</div>
 			</div>
 		);
 	}

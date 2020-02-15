@@ -15,7 +15,7 @@ html {
 
 body {
 	transition: 1s linear;
-	background-color: #ccd8e4;
+	background-color: transparent;
 }
 
 h1 {
@@ -41,12 +41,12 @@ h4 {
 	padding: 10rem 6rem;
 	border-radius: 8rem;
 	box-shadow: 0.5rem 0 5rem 2rem rgba(77, 66, 55, 0.44);
-	transition: 1.2s linear;
+	transition: 1.7s linear;
 }
 
 .playerContainer:hover {
-  background: #371199;
-  color: #0fff22;
+	background: #371199;
+	color: #0fff22;
 	box-shadow: 0.5rem 0 5rem 2rem rgba(77, 66, 55, 0.44);
 }
 
@@ -56,18 +56,23 @@ h4 {
 	justify-content: space-around;
 	width: 48rem;
 	height: 43rem;
-	padding: 5rem;
+	padding: 4rem 2rem 2rem 3rem;
 	border-radius: 4rem;
-	margin: 2rem;
+	margin: 0rem;
 	background-color: transparent;
 	box-shadow: 2rem 1.5rem 2.5rem 0.9rem rgba(33, 44, 55, 0.66);
+	transition: 0.4s linear;
+}
+
+.playerCards:hover {
+	box-shadow: 1rem 2rem 4rem 1rem rgba(255, 222, 67, 0.66);
 }
 
 .playerStats {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 10rem 0 18rem;
+	padding: 13rem 0 17rem;
 }
 
 .playerID {
@@ -75,11 +80,20 @@ h4 {
 }
 
 .playerName {
-	font-size: 4.2rem;
+	font-size: 4.5rem;
+}
+
+.playerScore {
+	font-size: 2.2rem;
+	padding-bottom: 5rem;
+}
+
+.playerCountry {
+	padding-left: 36rem;
 }
 
 .darkness {
-	background-color: #161d25;
+	background-color: #371199;
 }
 
 .navBar {
@@ -99,17 +113,22 @@ h4 {
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 0 10rem;
-	background-color: #3d002f99;
+	background: #8844cc99;
 	box-shadow: 1rem 1rem 0.5rem 0.1rem rgba(39, 66, 60, 0.66);
+	transition: 0.7s linear;
+}
+
+.navHeader:hover {
+	box-shadow: 1rem 2rem 4rem 1rem rgba(7, 7, 7, 0.66);
 }
 
 .worldCup {
-	color: #ae75b3;
+	color: #d7b9d9;
 	font-size: 6rem;
 }
 
 .yearRank {
-	color: #00a3fb;
+	color: #97dbff;
 	font-size: 3rem;
 }
 
